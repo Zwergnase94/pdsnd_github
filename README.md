@@ -10,7 +10,7 @@ Bikeshare Python script
 Bikeshare is a Python script that calculates usage statistics.
 
 ### Files used
-Include the files used
+bikeshare_2.py and city statistic in .csv format
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
