@@ -7,7 +7,7 @@
 Bikeshare Python script
 
 ### Description
-Describe what your project is about and what it does
+Bikeshare is a Python script that calculates usage statistics.
 
 ### Files used
 Include the files used
