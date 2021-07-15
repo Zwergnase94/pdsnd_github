@@ -25,6 +25,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # the .lower() function makes the program more stable because it doesn't matter how the user enters it.
     while next == False:
         city = input('Enter a City name: ').lower()
         if city in CITY_DATA:
@@ -33,6 +34,7 @@ def get_filters():
             print('No city was found in the database for this entry.')
 
     # get user input for month (all, january, february, ... , june)
+    #the .lower() function makes the program more stable because it doesn't matter how the user enters it.
     while next == False:
         month = input('Enter a Month name: ').lower()
         if month in MONTH_DATA:
@@ -41,6 +43,7 @@ def get_filters():
             print("Input of the month was not recognized.")
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
+    #the .lower() function makes the program more stable because it doesn't matter how the user enters it.
     while next == False:
         day = input('Enter a Day name: ').lower()
         if day in WEEKDAY_DATA:
