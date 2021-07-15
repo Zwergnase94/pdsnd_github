@@ -2,11 +2,14 @@ import time
 import pandas as pd
 import numpy as np
 
+#Name = Name File
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+#Month
 MONTH_DATA = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+
+#Weekday
 WEEKDAY_DATA = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 
 def get_filters():
